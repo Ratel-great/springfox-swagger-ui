@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gizwits</groupId>
+    <groupId>com.xncoding</groupId>
     <artifactId>springfox-swagger-ui</artifactId>
     <version>2.7.0</version>
     <packaging>jar</packaging>
@@ -14,7 +14,8 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-    <description>swagger-ui for gizwits</description>
+
+    <description>swagger-ui for xncoding</description>
     <name>springfox-swagger-ui</name>
     <url>http://maven.apache.org</url>
 
@@ -27,22 +28,22 @@
     </properties>
     <licenses>
         <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <name>The MIT License (MIT)</name>
+            <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
     <developers>
         <developer>
             <id>feel</id>
             <name>feel</name>
-            <organization>Gizwits</organization>
-            <email>fye@gizwits.com</email>
+            <organization>xncoding</organization>
+            <email>yidao620@gmail.com</email>
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:Bestfeel/springfox-swagger-ui.git</connection>
-        <developerConnection>scm:git:git@github.com:Bestfeel/springfox-swagger-ui.git</developerConnection>
-        <url>ggit@github.com:Bestfeel/springfox-swagger-ui.git</url>
+        <connection>scm:git:git@github.com:yidao620c/springfox-swagger-ui.git</connection>
+        <developerConnection>scm:git:git@github.com:yidao620c/springfox-swagger-ui.git</developerConnection>
+        <url>ggit@github.com:yidao620c/springfox-swagger-ui.git</url>
     </scm>
     <build>
         <plugins>
@@ -122,19 +123,19 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.6</version>
-                <executions>
-                    <execution>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-gpg-plugin</artifactId>-->
+                <!--<version>1.6</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>verify</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>sign</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
+            <!--</plugin>-->
         </plugins>
     </build>
     <distributionManagement>
