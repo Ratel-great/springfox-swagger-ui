@@ -90,7 +90,6 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <charset>UTF-8</charset>
-                    <!--JDK8-->
                     <additionalparam>-Xdoclint:none</additionalparam>
                 </configuration>
             </plugin>
